@@ -3,6 +3,7 @@
   "displayName": "Regex Breakpoints",
   "description": "Place and remove breakpoints in lines that match a string or regular expression.",
   "author": "quecot",
+  "publisher": "quecot",
   "license": "MIT",
   "repository": "https://github.com/quecot/regex-breakpoints",
   "version": "1.0.0",
