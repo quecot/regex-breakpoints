@@ -12,13 +12,16 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "regex-breakpoints.helloWorld",
-        "title": "Hello World"
+        "command": "regex-breakpoints.setBreakpoints",
+        "title": "Set Breakpoints by Regex"
+      },
+      {
+        "command": "regex-breakpoints.removeBreakpoints",
+        "title": "Remove Breakpoints by Regex"
       }
     ]
   },
